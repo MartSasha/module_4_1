@@ -1,8 +1,7 @@
 from math import inf
 def divide(first, second):
-    if second != 0:
-        true_divide = first/second
-        return true_divide
-    else:
+    if second == 0:
         return inf
+    else:
+        return first/second
 divide(5, 0)

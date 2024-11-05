@@ -1,8 +1,7 @@
 def divide(first, second):
-    if second != 0:
-        fake_divide = first/second
-        return fake_divide
-    else:
+    if second == 0:
         return 'Ошибка'
+    else:
+        return first/second
 divide(5, 0)
 
